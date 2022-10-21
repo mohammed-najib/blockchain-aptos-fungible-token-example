@@ -1,0 +1,11 @@
+[package]
+name = 'BasicCoin'
+version = '1.0.0'
+
+[addresses]
+Publisher = '0xCAFE'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
